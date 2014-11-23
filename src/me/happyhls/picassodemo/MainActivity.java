@@ -1,4 +1,4 @@
-package me.happyhls.picassodemo;
+锘縫ackage me.happyhls.picassodemo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,7 +38,7 @@ public class MainActivity extends ListActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    mClassMap.put("获取图片，后处理", PostProcessActivity.class);
+    mClassMap.put("鑾峰彇鍥剧墖锛屽悗澶勭悊", PostProcessActivity.class);
     
     final List<String> list = new ArrayList<>();
     list.addAll(mClassMap.keySet());
